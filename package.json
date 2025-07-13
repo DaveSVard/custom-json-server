@@ -1,0 +1,22 @@
+{
+  "name": "json-server-by-david",
+  "version": "1.0.6",
+  "description": "A custom JSON server with CRUD for /posts and /comments.",
+  "main": "lib/server.js",
+  "bin": {
+    "json-server-by-david": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "dev": "nodemon bin/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^5.4.1",
+    "express": "^4.18.2"
+  }
+}
